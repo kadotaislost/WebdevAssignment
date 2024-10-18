@@ -43,8 +43,6 @@ header {
   color: #1d3d8e;
 }
 
-/* using calc write me code to get the perfect height after subtracting 100px from the height of the viewport. */
-
 main {
   display: flex;
   align-items: center;
@@ -64,30 +62,44 @@ p {
 }
 
 button {
+  border: 0;
+}
+
+.hero-btn a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero-btn:hover {
+  background-color: #17419d;
+}
+
+.hero-btn {
   background-color: #2563eb; /* Coral color */
   color: white;
   padding: 15px 30px;
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   transition: background-color 0.3s ease;
-}
-
-button a {
-  color: white;
-  text-decoration: none;
-}
-
-button:hover {
-  background-color: #17419d;
 }
 
 .navbar-active {
   background-color: #eff6ff;
   color: #11275e !important;
 }
+.hero {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
 
+.hero-text {
+  width: 32rem;
+  text-align: left;
+}
 .container {
   max-width: 90rem;
   margin: 0 auto;
@@ -159,10 +171,21 @@ h2 {
 }
 .abttab {
   box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+  font-size: 1.3rem;
 }
 .detail {
   display: none;
   text-align: left;
+}
+
+.detail-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.detail-text {
+  width: 50vw;
+  text-align: justify;
 }
 
 .btn:hover {
@@ -192,6 +215,11 @@ h2 {
   font-size: 1.3rem;
   line-height: 2;
   color: #2e2e2e;
+}
+
+.detail-img {
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
 }
 
 .footer {
@@ -243,6 +271,77 @@ textarea {
   border-radius: 5px; /* Rounded corners */
 }
 
+.Self-Assessment-title {
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.test-container {
+  background-color: #eff6ff;
+  padding: 2rem 2rem;
+  margin: 4rem 0;
+  border-radius: 15px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2.5rem;
+  padding: 2rem;
+}
+.test-card {
+  background-color: white;
+  padding: 2rem;
+  width: 25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  border-radius: 15px;
+  box-shadow: 8px 5px 8px rgba(0, 0, 0, 0.2);
+}
+
+.test-card-title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #1d3d8e;
+}
+
+.test-card-text {
+  font-size: 1.2rem;
+  color: #777777;
+  line-height: 1.6;
+  text-align: left;
+}
+
+.test-btn {
+  background-color: #d1fae5;
+  padding: 1rem;
+  border-radius: 15px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition */
+}
+
+.test-btn a {
+  color: #15803d;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.test-btn:hover {
+  background-color: #a7e3d4; /* Lighter shade for hover effect */
+}
+
+.test-btn:hover a {
+  color: #0f766e; /* Darker shade for text color on hover */
+}
+.info-text {
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.6;
+  color: #707070;
+}
 /* Optional: Make the hero section responsive */
 @media (max-width: 768px) {
   h1 {
