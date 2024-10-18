@@ -169,6 +169,10 @@ h2 {
   background-color: #8e939e;
 }
 
+.no-hover {
+  pointer-events: none;
+}
+
 .information-active {
   background-color: rgb(30, 64, 175);
   color: #fff;
@@ -232,12 +236,13 @@ form {
 input[type="text"],
 input[type="email"],
 textarea {
-  width: 100%; /* Full width */
+  width: 400px; /* Full width */
   padding: 10px 10px; /* Spacing inside the input fields */
   font-size: 1rem; /* Consistent font size */
   border: 1px solid #ccc; /* Light border */
   border-radius: 5px; /* Rounded corners */
 }
+
 /* Optional: Make the hero section responsive */
 @media (max-width: 768px) {
   h1 {

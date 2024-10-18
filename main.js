@@ -28,6 +28,15 @@ informationContainer.addEventListener("click", (e) => {
   informationTab.forEach((t) => t.classList.remove("information-active"));
   clicked.classList.add("information-active");
 
+  //write me code so that if an information tab is active, then there should be no hover effects on the active tab
+  informationTab.forEach((t) => {
+    if (t.classList.contains("information-active")) {
+      t.classList.add("no-hover");
+    } else {
+      t.classList.remove("no-hover");
+    }
+  });
+
   infomrationText.forEach((t) => t.classList.remove("detail-active"));
   document
     .querySelector(`.detail--${clicked.dataset.tab}`)
