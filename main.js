@@ -16,3 +16,20 @@ navbarLinks.forEach((link) => {
     link.classList.remove("navbar-active");
   }
 });
+
+const informationContainer = document.querySelector(".information");
+const informationTab = document.querySelectorAll(".abttab");
+const infomrationText = document.querySelectorAll(".detail");
+
+informationContainer.addEventListener("click", (e) => {
+  e.preventDefault();
+  const clicked = e.target.closest(".abttab");
+  if (!clicked) return;
+  informationTab.forEach((t) => t.classList.remove("information-active"));
+  clicked.classList.add("information-active");
+
+  infomrationText.forEach((t) => t.classList.remove("detail-active"));
+  document
+    .querySelector(`.detail--${clicked.dataset.tab}`)
+    .classList.add("detail-active");
+});

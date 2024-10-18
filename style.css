@@ -98,7 +98,7 @@ button:hover {
 }
 
 .features h2 {
-  margin: 2rem 0;
+  margin: 4rem 0;
 }
 
 h2 {
@@ -137,6 +137,106 @@ h2 {
 
 .about-us {
   text-align: center;
+}
+
+.about-us {
+  margin: 8rem 0;
+}
+
+.information {
+  max-width: 40rem;
+  margin: 4rem auto;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+.btn {
+  background-color: #f3f3f3;
+  padding: 1rem 1rem;
+  border-radius: 15px;
+  color: #000;
+}
+.abttab {
+  box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+.detail {
+  display: none;
+  text-align: left;
+}
+
+.btn:hover {
+  background-color: #8e939e;
+}
+
+.information-active {
+  background-color: rgb(30, 64, 175);
+  color: #fff;
+  box-shadow: 6px 6px 6px rgba(30, 64, 175, 0.432);
+}
+.detail-active {
+  display: block;
+}
+
+.detail-title {
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.detail-text {
+  font-size: 1.3rem;
+  line-height: 2;
+  color: #2e2e2e;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 0;
+}
+footer {
+  background-color: #eff6ff;
+}
+
+.footer-title {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer-btn {
+  background-color: #2563eb;
+  padding: 0.5rem 0.2rem;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%; /* Full width */
+  padding: 10px 10px; /* Spacing inside the input fields */
+  font-size: 1rem; /* Consistent font size */
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 5px; /* Rounded corners */
 }
 /* Optional: Make the hero section responsive */
 @media (max-width: 768px) {
