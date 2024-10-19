@@ -391,6 +391,26 @@ textarea {
   cursor: pointer;
 }
 
+.search-tags {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.tag {
+  background-color: #dbe5f1;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  color: #3f3f3f;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.tag-active {
+  background-color: #1d3d8e;
+  color: #fff;
+}
 .article-container {
   display: grid;
   max-width: 63vw;
@@ -435,7 +455,7 @@ textarea {
 }
 
 .article-btn {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #1a56db;
   background: none;
   margin-bottom: 1rem;
@@ -443,6 +463,7 @@ textarea {
 
 .article-btn a {
   text-decoration: none;
+  color: #1a56db;
 }
 /* Optional: Make the hero section responsive */
 @media (max-width: 768px) {

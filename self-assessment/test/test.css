@@ -1,0 +1,133 @@
+.form-container {
+  background-color: #d9e9ff;
+  padding: 4rem 8rem;
+  border-radius: 15px;
+  margin-bottom: 4rem;
+}
+
+.question {
+  margin-bottom: 1rem;
+}
+.options {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+.choice {
+  width: 12rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  background-color: #fff;
+  border: 1px solid #d9e9ff;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.other-test-container {
+  background-color: #d9e9ff;
+  padding: 2rem 3rem;
+  border-radius: 15px;
+  margin-bottom: 8rem !important;
+}
+.other-test-title {
+  color: #1e40af;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+#nextBtn {
+  background-color: #4a3aff;
+  border: none;
+  color: white;
+  padding: 1rem 4rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+#prevBtn {
+  border: 2px solid #4a3aff;
+  background-color: inherit;
+  color: #4a3aff;
+  padding: 1rem 4rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-weight: 600;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+.progress {
+  margin-bottom: 1rem;
+  background-color: #eff0f6;
+  border-radius: 8px;
+  height: 20px;
+  overflow: hidden;
+}
+.progress-bar {
+  height: 100%;
+  background-color: #4a3aff;
+  transition: width 0.3s ease;
+}
+
+.test-title {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.test-abt {
+  text-align: center;
+  color: #170f49;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.test-abt-text {
+  text-align: center;
+  color: #6f6c90;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.question {
+  color: #170f49;
+  margin: 2rem 0;
+  font-size: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.error-text {
+  display: none;
+  color: rgb(235, 97, 97);
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.error-active {
+  display: block !important;
+}
