@@ -29,3 +29,27 @@ Ensure you have the following installed:
    ```bash
    git clone https://github.com/kadotaislost/WebdevAssignment.git
    ```
+
+2. **Navigate to the project folder**:
+
+   ```bash
+   cd mindwell-hub
+   ```
+
+3. **Install Dependencies**:
+   Inside the project folder, install the required dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running the Project
+
+1. **Start the development server**:
+   To Start the development server, run:
+
+```bash
+ npm install
+```
+
+2. **View the project in the browser:**:
+   After running the server, you will see a local development URL (usually http://localhost:5173). Open this in your web browser to see the project.
