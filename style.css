@@ -8,12 +8,12 @@ html {
   height: 100%;
 }
 body {
-  font-family: "Roboto", sans-serif, system-ui;
+  font-family: "Roboto", sans-serif;
 }
 
 header {
   color: #1d3d8e;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 2rem;
   text-align: center;
   margin-top: 2rem;
@@ -33,7 +33,7 @@ header {
   text-decoration: none;
   color: #565656;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
   padding: 1rem 2rem;
   border-radius: 12px;
 }
@@ -137,12 +137,13 @@ h2 {
 .feature-title {
   color: #1e40af;
   font-size: 1.6rem;
-  font-weight: 600;
+  font-weight: 500;
   line-height: 1.4;
 }
 
 .feature-text {
   color: #424141;
+  font-weight: 400;
   font-size: 1.4rem;
   line-height: 1.6;
 }
@@ -206,8 +207,8 @@ h2 {
 }
 
 .detail-title {
-  font-weight: 600;
-  font-size: 1.4rem;
+  font-weight: 500;
+  font-size: 1.5rem;
   margin-bottom: 1rem;
 }
 
@@ -274,7 +275,7 @@ textarea {
 .Self-Assessment-title {
   text-align: center;
   margin-top: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 2rem;
 }
 
@@ -325,7 +326,7 @@ textarea {
 
 .test-btn a {
   color: #15803d;
-  font-weight: normal;
+  font-weight: 500;
   text-decoration: none;
 }
 
