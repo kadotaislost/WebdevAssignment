@@ -1,6 +1,6 @@
-# MindWell Hub
+# Balance Mind Hub
 
-MindWell Hub is a website designed to provide accessible and comprehensive mental health support tools, resources, and a supportive community for individuals looking to better understand and manage their mental well-being.
+Balance Mind Hub is a website designed to provide accessible and comprehensive mental health support tools, resources, and a supportive community for individuals looking to better understand and manage their mental well-being.
 
 Hosted on: https://mindwellhub.onrender.com/
 
@@ -35,7 +35,7 @@ Ensure you have the following installed:
 2. **Navigate to the project folder**:
 
    ```bash
-   cd mindwell-hub
+   cd WebdevAssignment
    ```
 
 3. **Install Dependencies**:
