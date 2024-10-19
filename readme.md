@@ -2,7 +2,7 @@
 
 Balance Mind Hub is a website designed to provide accessible and comprehensive mental health support tools, resources, and a supportive community for individuals looking to better understand and manage their mental well-being.
 
-Hosted on: https://mindwellhub.onrender.com
+Hosted on: https://balancemindhub.onrender.com
 
 ## Key Features
 
