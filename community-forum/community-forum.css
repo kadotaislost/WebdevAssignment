@@ -1,0 +1,148 @@
+.community {
+  background: linear-gradient(rgba(239, 246, 255, 1), rgba(255, 255, 255, 1));
+}
+
+.community-forum-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding: 2rem 0;
+}
+
+.community-forum-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #707070;
+  margin-bottom: 3rem;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.stats {
+  border-radius: 15px;
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: #fff;
+  border: 0.5px solid #2e2e2e28;
+}
+
+.start-new-discussion-btn {
+  padding: 1rem 2rem;
+  border-radius: 12px;
+  background-color: #2563eb;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin: 1rem 9rem 1rem 0;
+}
+
+.start-new-discussion-btn:hover {
+  background-color: #17419d;
+}
+
+.new-posts {
+  color: #1e40af;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.discussion-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 4rem;
+}
+
+.category {
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 0 6px #0003;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.category-trend {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.category-types {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.category-type-title {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #1a56db;
+}
+
+.category-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.trend {
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: 15px;
+  box-shadow: 0 0 6px #0003;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.trend-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.trend-posts {
+  color: #1a56db;
+}
+
+.posts {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 6px #0003;
+}
+
+.post {
+  padding: 3rem;
+}
+
+.like-cmt {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.post-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.post-date {
+  font-size: 1rem;
+  color: #707070;
+}
+
+.post-content {
+  font-size: 1.2rem;
+  color: #414141;
+  margin-bottom: 2rem;
+}

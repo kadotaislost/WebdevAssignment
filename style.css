@@ -373,6 +373,8 @@ textarea {
   width: 50vw !important;
   border-top-right-radius: 0 !important;
   border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 15px !important;
+  border-top-left-radius: 15px !important;
 }
 
 .search-bar {
