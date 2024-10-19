@@ -468,16 +468,17 @@ textarea {
   text-decoration: none;
   color: #1a56db;
 }
-/* Optional: Make the hero section responsive */
-@media (max-width: 768px) {
-  h1 {
-    font-size: 2.5rem;
+
+@media (max-width: 1600px) {
+  html {
+    font-size: 14px;
   }
-  p {
-    font-size: 1.2rem;
+
+  .article-container {
+    max-width: 79vw;
   }
-  button {
-    font-size: 0.9rem;
-    padding: 12px 24px;
+
+  .hero-img {
+    height: 90%;
   }
 }
