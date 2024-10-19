@@ -2,6 +2,8 @@
 
 MindWell Hub is a website designed to provide accessible and comprehensive mental health support tools, resources, and a supportive community for individuals looking to better understand and manage their mental well-being.
 
+Hosted on: https://mindwellhub.onrender.com/
+
 ## Key Features
 
 - **Mental Health Self-Assessment Tools**: Understand your current mental health status.
