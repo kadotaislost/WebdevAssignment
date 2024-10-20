@@ -43,6 +43,11 @@ header {
   color: #1d3d8e;
 }
 
+.navbar-active {
+  background-color: #eff6ff;
+  color: #11275e !important;
+}
+
 main {
   display: flex;
   align-items: center;
@@ -85,10 +90,6 @@ button {
   transition: background-color 0.3s ease;
 }
 
-.navbar-active {
-  background-color: #eff6ff;
-  color: #11275e !important;
-}
 .hero {
   display: grid;
   gap: 2rem;
@@ -150,9 +151,6 @@ h2 {
 
 .about-us {
   text-align: center;
-}
-
-.about-us {
   margin: 8rem 0;
 }
 

@@ -8,6 +8,7 @@
 .question {
   margin-bottom: 1rem;
 }
+
 .options {
   display: flex;
   justify-content: space-between;
@@ -27,20 +28,6 @@
   transition: all 0.3s ease;
 }
 
-.other-test-container {
-  background-color: #d9e9ff;
-  padding: 2rem 3rem;
-  border-radius: 15px;
-  margin-bottom: 8rem !important;
-}
-.other-test-title {
-  color: #1e40af;
-  text-align: center;
-  font-weight: 600;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
 #nextBtn {
   background-color: #4a3aff;
   border: none;
@@ -71,9 +58,6 @@
   font-weight: 600;
 }
 
-button:disabled {
-  cursor: not-allowed;
-}
 .progress {
   margin-bottom: 1rem;
   background-color: #eff0f6;
@@ -109,6 +93,10 @@ button:disabled {
   margin-bottom: 2rem;
 }
 
+button:disabled {
+  cursor: not-allowed;
+}
+
 .question {
   color: #170f49;
   margin: 2rem 0;
@@ -130,4 +118,19 @@ button:disabled {
 
 .error-active {
   display: block !important;
+}
+
+.other-test-container {
+  background-color: #d9e9ff;
+  padding: 2rem 3rem;
+  border-radius: 15px;
+  margin-bottom: 8rem !important;
+}
+.other-test-title {
+  color: #1e40af;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }

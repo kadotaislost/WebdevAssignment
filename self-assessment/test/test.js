@@ -20,6 +20,7 @@ const options = [
   "Agree",
   "Strongly Agree",
 ];
+
 let currentPage = 0;
 const questionsPerPage = 3;
 const errorText = document.querySelector(".error-text");
@@ -105,8 +106,6 @@ function validateCurrentPage() {
 function submitForm() {
   errorText.classList.remove("error-active");
   alert("Form submitted successfully!");
-  // Here you would typically send the form data to a server
-  // For this example, we'll just reset the form
 
   currentPage = 0;
   renderQuestions();
