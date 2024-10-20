@@ -274,7 +274,7 @@ textarea {
 
 .Self-Assessment-title {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 4rem;
   font-weight: 500;
   font-size: 2rem;
 }
@@ -282,7 +282,7 @@ textarea {
 .test-container {
   background-color: #eff6ff;
   padding: 2rem 2rem;
-  margin: 4rem 0;
+  margin: 3rem 0;
   border-radius: 15px;
 }
 .grid-container {
@@ -351,9 +351,9 @@ textarea {
 
 .resource-library-title {
   text-align: center;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .resource-library-text {
